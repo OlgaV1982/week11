@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: white;
+    padding: 30px 100px 0px 100px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+h1 {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 110%;
+}
+.commodity_total,
+.shirt,
+.new_price1,
+#priceShirt,
+#priceSweetshirt,
+#priceSuit,
+#priceJeans,
+.subtotal {
+    font-size: 14px;
+    font-weight: bold;
+}
+.commodity_total {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    margin-top: 50px;
+}
+
+.commodity {
+    margin-left: 80px;
+}
+
+.purchase_price, .purchase_price1, .purchase_price2, .purchase_price3 {
+    display: grid;
+    width: 100%;
+    height: 180px;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    align-items: center;
+    
+    
+}
+.purchase {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    align-items: center;
+}
+
+#btn-close1 {
+    border: none;
+    background: none;
+    opacity: 0.7;
+    font-size: 25px;
+}
+
+#btn-close:hover {
+    opacity: 1;
+}
+
+.shirt_image {
+    width: 100px;
+    height: 150px;
+}
+
+
+#quantity1 {
+    width: 35px;
+    height: 35px;
+}
+
+#send3 {
+    width: 230px;
+    height: 47px;
+    background-color: #FFFFFF;
+    border: 1.5px solid #6E9C9F;
+    color: #35878d;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+
+#send3:hover {
+    opacity: 0.9;
+    background-color: rgb(210, 228, 233);
+}
+
+.total1 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#total2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.sum {
+    display: flex;
+    width: 150px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-self: center;
+}
+
+.button_sum {
+    display: grid;
+    width: 90%;
+    height: 60px;
+    grid-template-columns: 2fr 1fr;
+    margin: 40px;
+    
+
+}

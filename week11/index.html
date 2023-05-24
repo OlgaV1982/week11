@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Корзина</title>
+</head>
+
+<body>
+    <header>
+    <h1>Корзина</h1>
+    <main>
+        <div class="commodity_total">
+        <div class="commodity">Товар</div>
+        <div class="worth">Цена</div>
+        <div class="amount">Количество</div>
+        <div class="total">Всего</div>
+        </div>
+        <hr>
+        <div class="purchase_price">
+        <div class="purchase">
+        <button id="btn-close1"><a href="#">x</a></button>
+        <img src="products/brooke-cagle-h3vR1F8-caI.jpg" class="shirt_image">
+        <div class="shirt">Футболка USA</div>
+        </div>
+        <div class="new_price1">1290 руб.</div>
+        <form method="get" action="basket.html">
+            <input type="number" name="quantity" id="quantity1" min="1" max="30" step="1" value="1">
+        </form>
+        <div><span id="priceShirt">1290</span> руб.</div>
+        </div>
+        <div class="purchase_price1">
+            <div class="purchase">
+            <button id="btn-close1"><a href="#">x</a></button>
+            <img src="products/ben-eaton-L_kaTYIuu1o.jpg" class="shirt_image">
+            <div class="shirt">Свитшот</div>
+            </div>
+            <div class="new_price1">2700 руб.</div>
+            <form method="get" action="basket.html">
+                <input type="number" name="quantity" id="quantity1" min="1" max="30" step="1" value="1">
+            </form>
+            <div><span id="priceSweetshirt">2700</span> руб.</div>
+            </div>
+        <div class="purchase_price2">
+            <div class="purchase">
+            <button id="btn-close1"><a href="#">x</a></button>
+            <img src="products/christopher-campbell-va0YmkIFtPA.jpg" class="shirt_image">
+            <div class="shirt">Купальник</div>
+            </div>
+            <div class="new_price1">1550 руб.</div>
+            <form method="get" action="basket.html">
+                <input type="number" name="quantity" id="quantity1" min="1" max="30" step="1" value="1">
+            </form>
+            <div><span id="priceSuit">1550</span> руб.</div>
+            </div>
+        <div class="purchase_price3">
+            <div class="purchase">
+            <button id="btn-close1"><a href="#">x</a></button>
+            <img src="products/slider-3.jpg" class="shirt_image">
+            <div class="shirt">Джинсы</div>
+            </div>
+            <div class="new_price1">4100 руб.</div>
+            <form method="get" action="basket.html">
+            <input type="number" name="quantity" id="quantity1" min="1" max="30" step="1" value="1">
+            </form>
+            <div><span id="priceJeans">4100</span> руб.</div>
+            </div>
+        <div class="button_sum">
+        <button id="send3">Использовать купон на 20%</button>
+        <div class="sum">
+        <div class="total1">Итого:</div>
+        <div><span id="total2">9640</span> руб.</div>
+        </div>
+        </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
